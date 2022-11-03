@@ -1,0 +1,67 @@
+[INFO] --- maven-dependency-plugin:3.3.0:tree (default-cli) @ spring-boot3-web-mvc-demonov03 ---
+[INFO] io.futokiyo:spring-boot3-web-mvc-demonov03:jar:0.0.1-SNAPSHOT
+[INFO] +- org.springframework.boot:spring-boot-starter-web:jar:3.0.0-SNAPSHOT:compile
+[INFO] |  +- org.springframework.boot:spring-boot-starter:jar:3.0.0-SNAPSHOT:compile
+[INFO] |  |  +- org.springframework.boot:spring-boot:jar:3.0.0-SNAPSHOT:compile
+[INFO] |  |  +- org.springframework.boot:spring-boot-autoconfigure:jar:3.0.0-SNAPSHOT:compile
+[INFO] |  |  +- org.springframework.boot:spring-boot-starter-logging:jar:3.0.0-SNAPSHOT:compile
+[INFO] |  |  |  +- ch.qos.logback:logback-classic:jar:1.4.4:compile
+[INFO] |  |  |  |  \- ch.qos.logback:logback-core:jar:1.4.4:compile
+[INFO] |  |  |  +- org.apache.logging.log4j:log4j-to-slf4j:jar:2.19.0:compile
+[INFO] |  |  |  |  \- org.apache.logging.log4j:log4j-api:jar:2.19.0:compile
+[INFO] |  |  |  \- org.slf4j:jul-to-slf4j:jar:2.0.3:compile
+[INFO] |  |  +- jakarta.annotation:jakarta.annotation-api:jar:2.0.0:compile
+[INFO] |  |  \- org.yaml:snakeyaml:jar:1.33:compile
+[INFO] |  +- org.springframework.boot:spring-boot-starter-json:jar:3.0.0-SNAPSHOT:compile
+[INFO] |  |  +- com.fasterxml.jackson.core:jackson-databind:jar:2.14.0-rc3:compile
+[INFO] |  |  |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.14.0-rc3:compile
+[INFO] |  |  |  \- com.fasterxml.jackson.core:jackson-core:jar:2.14.0-rc3:compile
+[INFO] |  |  +- com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.14.0-rc3:compile
+[INFO] |  |  +- com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.14.0-rc3:compile
+[INFO] |  |  \- com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.14.0-rc3:compile
+[INFO] |  +- org.springframework.boot:spring-boot-starter-tomcat:jar:3.0.0-SNAPSHOT:compile
+[INFO] |  |  +- org.apache.tomcat.embed:tomcat-embed-core:jar:10.0.27:compile
+[INFO] |  |  +- org.apache.tomcat.embed:tomcat-embed-el:jar:10.0.27:compile
+[INFO] |  |  \- org.apache.tomcat.embed:tomcat-embed-websocket:jar:10.0.27:compile
+[INFO] |  +- org.springframework:spring-web:jar:6.0.0-SNAPSHOT:compile
+[INFO] |  |  +- org.springframework:spring-beans:jar:6.0.0-SNAPSHOT:compile
+[INFO] |  |  \- io.micrometer:micrometer-observation:jar:1.10.0-SNAPSHOT:compile
+[INFO] |  |     \- io.micrometer:micrometer-commons:jar:1.10.0-SNAPSHOT:compile
+[INFO] |  \- org.springframework:spring-webmvc:jar:6.0.0-SNAPSHOT:compile
+[INFO] |     +- org.springframework:spring-aop:jar:6.0.0-SNAPSHOT:compile
+[INFO] |     +- org.springframework:spring-context:jar:6.0.0-SNAPSHOT:compile
+[INFO] |     \- org.springframework:spring-expression:jar:6.0.0-SNAPSHOT:compile
+[INFO] \- org.springframework.boot:spring-boot-starter-test:jar:3.0.0-SNAPSHOT:test
+[INFO]    +- org.springframework.boot:spring-boot-test:jar:3.0.0-SNAPSHOT:test
+[INFO]    +- org.springframework.boot:spring-boot-test-autoconfigure:jar:3.0.0-SNAPSHOT:test
+[INFO]    +- com.jayway.jsonpath:json-path:jar:2.7.0:test
+[INFO]    |  +- net.minidev:json-smart:jar:2.4.8:test
+[INFO]    |  |  \- net.minidev:accessors-smart:jar:2.4.8:test
+[INFO]    |  |     \- org.ow2.asm:asm:jar:9.1:test
+[INFO]    |  \- org.slf4j:slf4j-api:jar:2.0.3:compile
+[INFO]    +- jakarta.xml.bind:jakarta.xml.bind-api:jar:3.0.1:test
+[INFO]    |  \- com.sun.activation:jakarta.activation:jar:2.0.1:test
+[INFO]    +- org.assertj:assertj-core:jar:3.23.1:test
+[INFO]    |  \- net.bytebuddy:byte-buddy:jar:1.12.18:test
+[INFO]    +- org.hamcrest:hamcrest:jar:2.2:test
+[INFO]    +- org.junit.jupiter:junit-jupiter:jar:5.9.1:test
+[INFO]    |  +- org.junit.jupiter:junit-jupiter-api:jar:5.9.1:test
+[INFO]    |  |  +- org.opentest4j:opentest4j:jar:1.2.0:test
+[INFO]    |  |  +- org.junit.platform:junit-platform-commons:jar:1.9.1:test
+[INFO]    |  |  \- org.apiguardian:apiguardian-api:jar:1.1.2:test
+[INFO]    |  +- org.junit.jupiter:junit-jupiter-params:jar:5.9.1:test
+[INFO]    |  \- org.junit.jupiter:junit-jupiter-engine:jar:5.9.1:test
+[INFO]    |     \- org.junit.platform:junit-platform-engine:jar:1.9.1:test
+[INFO]    +- org.mockito:mockito-core:jar:4.8.1:test
+[INFO]    |  +- net.bytebuddy:byte-buddy-agent:jar:1.12.18:test
+[INFO]    |  \- org.objenesis:objenesis:jar:3.2:test
+[INFO]    +- org.mockito:mockito-junit-jupiter:jar:4.8.1:test
+[INFO]    +- org.skyscreamer:jsonassert:jar:1.5.1:test
+[INFO]    |  \- com.vaadin.external.google:android-json:jar:0.0.20131108.vaadin1:test
+[INFO]    +- org.springframework:spring-core:jar:6.0.0-SNAPSHOT:compile
+[INFO]    |  \- org.springframework:spring-jcl:jar:6.0.0-SNAPSHOT:compile
+[INFO]    +- org.springframework:spring-test:jar:6.0.0-SNAPSHOT:test
+[INFO]    \- org.xmlunit:xmlunit-core:jar:2.9.0:test
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
